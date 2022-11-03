@@ -18,5 +18,7 @@ RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ $2 [L]
 RewriteRule . index.php [L]
 </IfModule>
 
-php_value max_execution_time 300
+
 # END WordPress
+
+php_value max_execution_time 600
